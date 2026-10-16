@@ -1,0 +1,82 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom right, #b8d9d9, #243e83);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2.8rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+form {
+  max-width: 640px;
+  margin: 3rem auto;
+  padding: 4rem 5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 1.2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #2e4053;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #ccd1d1;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  border-color: #ff8279;
+  outline: none;
+}
+
+button {
+  background-color: #142f83;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  margin-top: 0.3rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ec7063;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    margin-top: 1.5rem;
+  }
+
+  form {
+    margin: 2rem 1rem;
+    padding: 2rem;
+  }
+}
